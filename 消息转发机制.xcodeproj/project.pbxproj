@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0EFC6BE1BB2CBD700D465CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC6BD1BB2CBD700D465CC /* main.m */; };
+		B0EFC6C61BB2CBFF00D465CC /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC6C51BB2CBFF00D465CC /* Cat.m */; settings = {ASSET_TAGS = (); }; };
+		B0EFC6C91BB2CC0D00D465CC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC6C81BB2CC0D00D465CC /* Dog.m */; settings = {ASSET_TAGS = (); }; };
+		B0EFC6CC1BB2CC2F00D465CC /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EFC6CB1BB2CC2F00D465CC /* Chicken.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0EFC6B81BB2CBD700D465CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0EFC6BA1BB2CBD700D465CC /* 消息转发机制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "消息转发机制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EFC6BD1BB2CBD700D465CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0EFC6C41BB2CBFF00D465CC /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		B0EFC6C51BB2CBFF00D465CC /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		B0EFC6C71BB2CC0D00D465CC /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		B0EFC6C81BB2CC0D00D465CC /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		B0EFC6CA1BB2CC2F00D465CC /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		B0EFC6CB1BB2CC2F00D465CC /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EFC6B71BB2CBD700D465CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0EFC6B11BB2CBD700D465CC = {
+			isa = PBXGroup;
+			children = (
+				B0EFC6BC1BB2CBD700D465CC /* 消息转发机制 */,
+				B0EFC6BB1BB2CBD700D465CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EFC6BB1BB2CBD700D465CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EFC6BA1BB2CBD700D465CC /* 消息转发机制 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EFC6BC1BB2CBD700D465CC /* 消息转发机制 */ = {
+			isa = PBXGroup;
+			children = (
+				B0EFC6BD1BB2CBD700D465CC /* main.m */,
+				B0EFC6C41BB2CBFF00D465CC /* Cat.h */,
+				B0EFC6C51BB2CBFF00D465CC /* Cat.m */,
+				B0EFC6C71BB2CC0D00D465CC /* Dog.h */,
+				B0EFC6C81BB2CC0D00D465CC /* Dog.m */,
+				B0EFC6CA1BB2CC2F00D465CC /* Chicken.h */,
+				B0EFC6CB1BB2CC2F00D465CC /* Chicken.m */,
+			);
+			path = "消息转发机制";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0EFC6B91BB2CBD700D465CC /* 消息转发机制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EFC6C11BB2CBD700D465CC /* Build configuration list for PBXNativeTarget "消息转发机制" */;
+			buildPhases = (
+				B0EFC6B61BB2CBD700D465CC /* Sources */,
+				B0EFC6B71BB2CBD700D465CC /* Frameworks */,
+				B0EFC6B81BB2CBD700D465CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "消息转发机制";
+			productName = "消息转发机制";
+			productReference = B0EFC6BA1BB2CBD700D465CC /* 消息转发机制 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EFC6B21BB2CBD700D465CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mars Chen";
+				TargetAttributes = {
+					B0EFC6B91BB2CBD700D465CC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B0EFC6B51BB2CBD700D465CC /* Build configuration list for PBXProject "消息转发机制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0EFC6B11BB2CBD700D465CC;
+			productRefGroup = B0EFC6BB1BB2CBD700D465CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EFC6B91BB2CBD700D465CC /* 消息转发机制 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EFC6B61BB2CBD700D465CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EFC6C91BB2CC0D00D465CC /* Dog.m in Sources */,
+				B0EFC6CC1BB2CC2F00D465CC /* Chicken.m in Sources */,
+				B0EFC6C61BB2CBFF00D465CC /* Cat.m in Sources */,
+				B0EFC6BE1BB2CBD700D465CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0EFC6BF1BB2CBD700D465CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0EFC6C01BB2CBD700D465CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0EFC6C21BB2CBD700D465CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0EFC6C31BB2CBD700D465CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EFC6B51BB2CBD700D465CC /* Build configuration list for PBXProject "消息转发机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EFC6BF1BB2CBD700D465CC /* Debug */,
+				B0EFC6C01BB2CBD700D465CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EFC6C11BB2CBD700D465CC /* Build configuration list for PBXNativeTarget "消息转发机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EFC6C21BB2CBD700D465CC /* Debug */,
+				B0EFC6C31BB2CBD700D465CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0EFC6B21BB2CBD700D465CC /* Project object */;
+}
